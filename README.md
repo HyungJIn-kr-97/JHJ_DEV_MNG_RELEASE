@@ -1,17 +1,27 @@
 # JHJ DEV Manager — 배포판
 
-**JHJ DEV Manager**(JHJ 개발 통합 관리 시스템)의 설치 파일만 올리는 저장소입니다. 소스는 비공개 저장소에 있습니다.
+**JHJ DEV Manager**(JHJ 개발 통합 관리 시스템)는 개발 자산의 상태 · 버전 · 문서 · 배포 · 장비 구성을 한 화면에서 다루는 Windows 앱입니다.
 
-## 설치
+## 받기
 
-[Releases](https://github.com/HyungJIn-kr-97/JHJ_DEV_MNG_RELEASE/releases/latest)에서 `JHJ_DEV-Manager_Setup.exe` 를 받아 실행합니다.
+**JHJ 포털에서 받습니다** — https://jhj.wecco.co.kr/download/#dev-manager
 
-최신 설치 파일 주소(늘 같은 주소)입니다.
+- 소유자 전용 앱이라 JHJ 계정으로 로그인해야 목록에 보이고, 로그인하면 바로 받습니다.
+- 메일로 받은 주소는 누르는 순간의 최신 판을 JHJ 서버에서 내려받는 기한부 주소입니다.
 
-```
-https://github.com/HyungJIn-kr-97/JHJ_DEV_MNG_RELEASE/releases/latest/download/JHJ_DEV-Manager_Setup.exe
-```
+이미 설치한 앱은 스스로 업데이트합니다. 업데이트 파일은 JHJ 서버에서 받고, 받을 때마다 원본과 같은지(SHA-256) 확인합니다.
+
+## 이 저장소
+
+- 판마다 무엇이 추가 · 개선 · 수정됐는지 [Releases](https://github.com/HyungJIn-kr-97/JHJ_DEV_MNG_RELEASE/releases) 에 남깁니다.
+- 소스 코드는 비공개 저장소에 있고 여기에는 올리지 않습니다.
+- 배포 방식을 옮기는 동안에는 이미 설치된 옛 판의 업데이트를 위해 Releases 에 설치 파일도 함께 올라갑니다. 새로 받을 때는 위의 포털을 이용해 주십시오.
+
+## 참고
 
 - Windows 10/11 x64 전용입니다.
-- 설치 파일에 코드 서명이 없어 SmartScreen 경고가 뜰 수 있습니다.
-- 파일마다 `.sha256` 이 함께 올라가 있습니다.
+- 코드 서명이 없어 처음 실행할 때 SmartScreen 창이 뜰 수 있습니다. 「추가 정보」 → 「실행」을 누릅니다.
+
+## 문의
+
+서비스 · 광고 · 제휴 문의 jhj@wecco.co.kr
